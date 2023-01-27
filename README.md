@@ -16,6 +16,7 @@ Go to admins.py And put the two class in admins.py from the models.py And save t
 Start the Django server Then move to admin page
 
 ## PROGRAM
+```
 File: Models.py
 
 from django.db import models
@@ -34,7 +35,7 @@ File: Admin.py
 from django.contrib import admin
 from .models import Employee,EmployeeAdmin
 admin.site.register(Employee,EmployeeAdmin)
-
+```
 ## OUTPUT
 
 ![output](/2023-01-05.png)
